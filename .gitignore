@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables (Secrets)
+.env
+
+# Project Data & Outputs
+data/
+review_results.xlsx
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# lock file (Exclude if you don't want to lock versions for others, but generally recommended to keep for apps)
+# uv.lock
